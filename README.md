@@ -4,12 +4,12 @@ A web-based dashboard for analyzing authentication logs and detecting suspicious
 
 ## Features
 
-- ✅ Upload and parse authentication log files
-- ✅ Real-time security metrics and statistics
-- ✅ Identify suspicious IP addresses with multiple failed attempts
-- ✅ Visualize login patterns by time, IP, and user
-- ✅ Generate downloadable security reports
-- ✅ Interactive charts and dashboards
+-  Upload and parse authentication log files
+-  Real-time security metrics and statistics
+-  Identify suspicious IP addresses with multiple failed attempts
+-  Visualize login patterns by time, IP, and user
+-  Generate downloadable security reports
+-  Interactive charts and dashboards
 
 ## Technologies Used
 
@@ -26,11 +26,9 @@ git clone <your-repo-url>
 cd log_analyzer
 
 2. Install dependencies:
-```bash
 pip install -r requirements.txt
 
 3. Run the application:
-```bash
 streamlit run app.py
 
 4. Open your browser and navigate to http://localhost:8501
